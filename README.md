@@ -1,43 +1,51 @@
-# CCNA (200-301)Labs
-ကျွန်တော် ဒီ Repo လေးကိုလုပ်ဖြစ်တဲ့ရည်ရွယ်ချက်ကတော့ CCNA Networking နဲ့ပက်သက်ပြီး Labs လုပ်တဲ့အခါ Diagram ဆွဲတာ အချိန်ကုန်သက်သာပြီး မြန်ဆန်စေဖို့ရည်ရွယ်ပါတယ်။
-ကျွန်တော်ကိုယ်တိုင်လဲ Networking ပိုင်းကိုလေ့လာနေဆဲ လူငယ်တစ်ယောက်အနေနဲ့ လိုအပ်ချက်တွေလဲရှိနေနိုင်ပါတယ်။
+# CCNA (200-301) Labs
 
-လိုအပ်ချက်တွေ အမှားပါတာတွေရှိတဲ့ အခါ ဝေဖန်ထောက်ပြပေးဖို့အတွက်လဲ တောင်းဆိုခြင်ပါတယ်။
-အမှားတွေ လိုအပ်ချက်တွေသိမှသာ အမှန်ကိုပြန်ပြင်နိုင်ပြီး လိုအပ်တာတွေကို ထပ်မံလေ့လာနိုင်မှာမို့လို့ပါ။
+ဒီ Repository ကိုဖန်တီးရခြင်းရဲ့ ရည်ရွယ်ချက်ကတော့ **CCNA Networking** နဲ့ပတ်သက်ပြီး Labs လုပ်ရာတွင် Diagram ဆွဲခြင်းအချိန်ကိုလျှော့ချပြီး ပိုမိုမြန်ဆန်စွာ လေ့ကျင့်နိုင်စေဖို့ ဖြစ်ပါတယ်။
 
-ကျေးဇူးတင်ပါသည်
+ကျွန်တော်လည်း Networking ကို လေ့လာနေဆဲ လူငယ်တစ်ယောက်အဖြစ် လိုအပ်ချက်များ ရှိနေချိန်မှာ ဒီ Repo က တကယ်အသုံးဝင်မယ်လို့ ယုံကြည်ပါတယ်။
+
+အမှားများရှိပါက ဝေဖန်အကြံပြုမှုများ ပေးပို့ရန်လည်း အထူးတောင်းဆိုပါသည်။ အမှားတွေကို သိမှသာ ပြန်လည်ပြင်ဆင်နိုင်ပြီး လိုအပ်ချက်များကို ထပ်မံလေ့လာနိုင်မယ်ဆိုတဲ့ ယုံကြည်ချက်နဲ့ ဖြစ်ပါတယ်။
+
+ကျေးဇူးတင်ပါသည်။  
 **By Min Khant - Flix**
 
-**CCNA Labs** အတွက် အသုံးပြုလို့ရတဲ့ **Network simulator Tools** တွေကတော့ <br/>
-1.  **EVE-NG** <br/>
-2.  **Cisco Packet Tracer** <br/>
-3.  **GNS-3** <br/>
+---
 
-အစရှိသည်တို့ကို အသုံးပြုန်ုင်ပါတယ်။
-ကျွန်တော်ကတော့ ခု CCNA Labs အတွက် EVE-NG ကိုအသုံးပြုထားတာမို့ EVE-Labs တွေကိုတင်ပေးမှာဖြစ်ပြီး အခြားသော Packet Tracer , GNS-3 အသုံးပြုသူများအနေဖြင့်
-Labs Diagram Picture ကိုမှီငြမ်းပြီး labs စမ်းလို့ရပါတယ်။ <br/>
+## အသုံးပြုနိုင်သော Network Simulation Tools
 
-**Cisco Packet Tracer** အသုံးပြုသူများကတော့ **Cisco 1841 or 1921** ကိုအသုံးပြုနိုင်ပြီး <br/>
-**GNS-3** အသုံးပြုသူများကတော့ **C7200 Image** ကိုအသုံးပြုနိုင်ပါတယ်။ <br/>
+- **EVE-NG** (ဤ Repo အတွက် အဓိကအသုံးပြုထားသည်)
+- **Cisco Packet Tracer**
+- **GNS3**
 
-*  VLAN & Trunk
-*  Inter-VLAN Routing Using Router
-*  Inter-VLAN Routing Using Layer-3 Switch
-*  Etherchannel (LACP)
-*  VTP (Server,Client & Transparent)
-*  Static Route
-*  Router RIP Version-2
-*  Router EIGRP
-*  Router OSPF Single Area
-*  Router OSPF Multi Area
-*  Router OSPF Multi Area (Using ABR) & RIP , EIGRP Routing
-*  Access Control Lists
-*  NAT Static
-*  NAT Overload
-*  DHCP & IP Helper
-*  VPN GRE-Tunnel
-*  Wireless Network (Using Packet Tracer)
+> **Note:**  
+> - Packet Tracer နှင့် GNS3 အသုံးပြုသူများအတွက် Diagram Image များပါရှိသဖြင့် အခြေခံပြီး Labs ကို စမ်းသပ်နိုင်ပါသည်။  
+> - Packet Tracer သုံးပါက Cisco 1841 သို့မဟုတ် 1921 Router များကို အသုံးပြုနိုင်သည်။  
+> - GNS3 သုံးပါက C7200 Image ကို အသုံးပြုနိုင်သည်။
 
+---
 
+## ပါဝင်သည့် Labs (Topics)
 
+1. VLAN & Trunk
+2. Inter-VLAN Routing (Using Router)
+3. Inter-VLAN Routing (Using Layer-3 Switch)
+4. EtherChannel (LACP)
+5. VTP (Server, Client & Transparent)
+6. Static Route
+7. Router RIP Version 2
+8. Router EIGRP
+9. Router OSPF Single Area
+10. Router OSPF Multi Area
+11. Router OSPF Multi Area (Using ABR) & RIP, EIGRP Routing
+12. Access Control Lists (ACL)
+13. NAT Static
+14. NAT Overload (PAT)
+15. DHCP & IP Helper
+16. VPN GRE Tunnel
+17. Wireless Network (Using Packet Tracer)
 
+---
+
+## Usage
+- Repo ကို Clone လုပ်ပြီး သင့် network simulator tool အလိုက် Labs Diagram ကို reference လုပ်နိုင်ပါတယ်။
+- လိုအပ်ချက်များနှင့် အမှားများကို Issue သို့ Pull Request အနေနဲ့ ပေးပို့နိုင်ပါတယ်။
